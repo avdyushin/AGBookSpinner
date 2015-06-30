@@ -1,6 +1,7 @@
 # AGBookSpinner
 
-![Demo](AGBookSpinner.gif)
+![Demo1](AGBookSpinner1.gif)
+![Demo2](AGBookSpinner2.gif)
 
 Custom spinner demo using `CABasicAnimation` to animate drawing of `UIBezierPath`.
 

@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, AGBookSpinnerStyles)
+{
+    AGBookSpinnerStyleDefault,
+    AGBookSpinnerStyleSingleLine = AGBookSpinnerStyleDefault,
+    AGBookSpinnerStyleDoubleLine,
+    AGBookSpinnerStyleRotation,
+};
+
 @interface AGBookSpinner : UIView
 
 - (void)startAnimating;
@@ -15,5 +23,6 @@
 
 @property (assign, nonatomic, readonly, getter=isAnimating) BOOL animating;
 @property (assign, nonatomic, readwrite) IBInspectable BOOL hidesWhenStopped;
+@property (assign, nonatomic, readwrite) IBInspectable NSInteger style;
 
 @end

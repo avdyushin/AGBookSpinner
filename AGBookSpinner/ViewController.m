@@ -20,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.spinner.hidesWhenStopped = NO;
+    self.spinner.tintColor = [UIColor grayColor];
 }
 
 - (void)didReceiveMemoryWarning {
